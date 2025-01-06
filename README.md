@@ -24,5 +24,40 @@ Before running the project, ensure you have the following installed:
 
 1. Download the Project: Clone or download this repository to your computer.
 2. Install Dependencies:
-   * Naviagate to the project folder
-   * Run the following commands: 
+   * Naviagate to the project folder and open up the terminal or command prompt
+   * Run these commands
+     ```bash
+     cd server
+     npm install
+     ```
+     ```bash
+     cd client
+     npm install
+     ```
+     ```bash
+     cd . .
+     npm install
+     ```
+## Running the Project
+1. Start the Backend Server:
+    ```bash
+     cd server
+     npm start
+     ```
+2. Start The Frontend Client:
+    ```bash
+     cd client
+     npm start
+     ```
+3. Open your browser and navigate to (http://localhost:3000)
+## Another Option
+Open your terminal or command prompt and run this command:
+ ```bash
+     npm start
+  ```
+## File Structure
+* client/: Contains the React front-end code.
+* server/: Contains the backend API and database connection.
+* package.json: Configurtation files for dependencies and scripts. 
+   
+     
