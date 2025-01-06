@@ -4,18 +4,25 @@ This project is a full-stack library catalog system designed to manage and displ
 
 ## Features
 
-Frontend: Developed using React to provide an interactive user interface.
+* Frontend: Developed using React to provide an interactive user interface.
 
-Backend: Utilizes MongoDB to store and manage library data and a RESTful API for communication between the frontend and backend.
+* Backend: Utilizes MongoDB to store and manage library data and a RESTful API for communication between the frontend and backend.
 
-Full-Stack Integration: Seamlessly integrates frontend and backend for smooth operation.
+* Full-Stack Integration: Seamlessly integrates frontend and backend for smooth operation.
 
-CRUD Operations: Includes create, read, update, and delete functionality for managing books.
+* CRUD Operations: Includes create, read, update, and delete functionality for managing books.
 
 ## Prerequisites
 
 Before running the project, ensure you have the following installed:
 
-Node.js: A runtime environment for executing JavaScript. Installation Guide https://code.visualstudio.com/docs/setup/setup-overview
+* Node.js: A runtime environment for executing JavaScript. [Installation Guide](https://nodejs.org/en)
 
-Visual Studio Code: An IDE for running and editing the project. Installation Guide
+* Visual Studio Code: An IDE for running and editing the project. [Installation Guide](https://code.visualstudio.com/docs/setup/setup-overview)
+
+## Installation
+
+1. Download the Project: Clone or download this repository to your computer.
+2. Install Dependencies:
+   * Naviagate to the project folder
+   * Run the following commands: 
