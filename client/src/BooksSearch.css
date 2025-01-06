@@ -1,0 +1,70 @@
+/* Container for two columns */
+.columns-container {
+  display: flex;                  /* Use Flexbox layout */
+  justify-content: space-between;  /* Space out the columns */
+  gap: 20px;                     
+}
+
+/* Each column for available and unavailable books */
+.column {
+  flex: 1;                         /* Make both columns equal width */
+  padding: 20px;
+  border: 1px solid #ccc;         /* Border around each column */
+  background-color: #f9f9f9;      /* Light background */
+}
+
+.book-info {
+  display: flex;                  /* Use Flexbox to align title and author horizontally */
+  justify-content: space-between;  /* Space between title and author */
+  align-items: center;            /* Align items vertically */
+}
+
+/* Ensure book title and author are aligned in one line */
+.book-info h3 {
+  margin: 0;                       /* Remove default margin */
+}
+
+.book-info p {
+  margin: 0;                       /* Remove default margin */
+  color: #555;                     /* Optional: change color for the author text */
+}
+
+li {
+  padding: 10px;
+  cursor: pointer;  /* Make the pointer cursor appear when hovering over a book */
+  transition: background-color 0.3s ease;  /* Smooth transition for background color change */
+}
+
+/* Hover effect */
+li:hover {
+  background-color: #f0f0f0;  /* Light gray background when hovering */
+  color: #333;  /* Change text color when hovering */
+}
+
+/* Optional: Active state when clicking */
+li:active {
+  background-color: #e0e0e0;  /* Darker background when clicking */
+}
+
+.column h3 {
+  text-align: center;              /* Center column titles */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;             /* Space between book list items */
+}
+
+.available {
+  background-color: lightblue; /* Background color for avaible books */
+}
+
+.unavailable {
+  background-color: lightcoral; /* Background color for unavaible books*/
+}
+
+
