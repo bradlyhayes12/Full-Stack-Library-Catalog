@@ -16,6 +16,6 @@ CRUD Operations: Includes create, read, update, and delete functionality for man
 
 Before running the project, ensure you have the following installed:
 
-Node.js: A runtime environment for executing JavaScript. Installation Guide
+Node.js: A runtime environment for executing JavaScript. Installation Guide https://code.visualstudio.com/docs/setup/setup-overview
 
 Visual Studio Code: An IDE for running and editing the project. Installation Guide
