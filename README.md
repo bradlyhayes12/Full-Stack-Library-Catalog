@@ -1,6 +1,6 @@
 # Full Stack Library Catalog
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a full-stack library catalog system designed to manage and display a library's collection. It features a React-based front end and a backend powered by MongoDB with a RESTful API. The project is ideal for demonstrating CRUD operations, modern web development practices, and API integration.
 
 ## Available Scripts
 
